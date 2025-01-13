@@ -32,31 +32,11 @@
 
 ## Overview
 
-![screenshot](project_screenshot/Flight_App_1.gif)
+![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif)
 
 ---
 
-![screenshot](project_screenshot/Flight_App_2.gif)
-
----
-
-![screenshot](project_screenshot/user_register.png)
-
----
-
-![screenshot](project_screenshot/user_detail.png)
-
----
-
-![screenshot](project_screenshot/user_login.png)
-
----
-
-![screenshot](project_screenshot/user_logout.png)
-
----
-
-![screenshot](project_screenshot/user_password_change.png)
+![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif)
 
 ---
 
