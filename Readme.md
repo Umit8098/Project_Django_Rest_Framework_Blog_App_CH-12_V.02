@@ -122,7 +122,7 @@ SECRET_KEY =123456789abcdefg...
 
 ## Acknowledgements
 - [Authentication](https://dj-rest-auth.readthedocs.io/en/latest/) - dj-rest-auth
-- [Authentication](https://github.com/alanjds/drf-nested-routers) - drf-nested-routers
+- [Routers](https://github.com/alanjds/drf-nested-routers) - drf-nested-routers
 
 ## Contact
 
