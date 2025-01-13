@@ -38,7 +38,6 @@
 
 ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif)
 
----
 
 ## Built With
 
