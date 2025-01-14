@@ -65,7 +65,7 @@ Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git
+$ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Blog_App_CH-12_V.02.git
 
 # Install dependencies
     $ python -m venv env
