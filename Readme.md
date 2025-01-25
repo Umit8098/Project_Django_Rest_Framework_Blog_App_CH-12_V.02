@@ -43,20 +43,30 @@
 Bu API aşağıdaki endpoint'leri sağlar:
 
 ### User/Authentication Endpoints:
-- `POST https://umit8114.pythonanywhere.com/users/register/` - Yeni kullanıcı kaydı
-- `POST https://umit8114.pythonanywhere.com/users/auth/login/` - Kullanıcı girişi
-- `POST https://umit8114.pythonanywhere.com/users/auth/logout/` - Kullanıcı çıkışı
+
+| Method | URL                                                          | Açıklama            |
+|--------|--------------------------------------------------------------|---------------------|
+| POST   | `https://umit8114.pythonanywhere.com/users/register/`        | Yeni kullanıcı kaydı|
+| POST   | `https://umit8114.pythonanywhere.com/users/auth/login/`      | Kullanıcı girişi    |
+| POST   | `POST https://umit8114.pythonanywhere.com/users/auth/logout/`| Kullanıcı çıkışı    |
+
 
 ### Blog Endpoints:
-- `GET https://umit8114.pythonanywhere.com/blog/posts/` - Tüm blogları listele
-- `POST https://umit8114.pythonanywhere.com/blog/posts/` - Yeni bir blog oluştur
-- `GET https://umit8114.pythonanywhere.com/blog/posts/14/` - Belirli bir blog detayları
-- `PUT https://umit8114.pythonanywhere.com/blog/posts/14/` - Blog güncelleme
-- `DELETE https://umit8114.pythonanywhere.com/blog/posts/16/` - Blog silme
+
+| Method | URL                                                  | Açıklama                   |
+|--------|------------------------------------------------------|----------------------------|
+| GET    | `https://umit8114.pythonanywhere.com/blog/posts/`    | Tüm blogları listele       |
+| POST   | `https://umit8114.pythonanywhere.com/blog/posts/`    | Yeni bir blog oluştur      |
+| GET    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Belirli bir blog detayları |
+| PUT    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Blog güncelleme            |
+| DELETE | `https://umit8114.pythonanywhere.com/blog/posts/16/` | Blog silme                 |
+
 
 ### Comment Endpoints:
-- `GET https://umit8114.pythonanywhere.com/blog/comments/` - Blog yorumlarını listele
-- `POST https://umit8114.pythonanywhere.com/blog/comments/` - Yeni bir yorum ekle
+| Method | URL                                                  | Açıklama                   |
+|--------|------------------------------------------------------|----------------------------|
+| GET    | `https://umit8114.pythonanywhere.com/blog/comments/` | Blog yorumlarını listele   |
+| POST   | `https://umit8114.pythonanywhere.com/blog/comments/` | Yeni bir yorum ekle        |
 
 
 ## API Testing
