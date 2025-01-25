@@ -163,6 +163,7 @@ SECRET_KEY =123456789abcdefg...
   Authorization: Token <login olunduğunda dönen token key>
 ```
   - Body (JSON):
+
 ```json
   {
   "title": "fifth Post",
