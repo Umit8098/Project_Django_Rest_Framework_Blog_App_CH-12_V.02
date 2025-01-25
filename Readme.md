@@ -148,12 +148,12 @@ SECRET_KEY =123456789abcdefg...
    - URL: `https://umit8114.pythonanywhere.com/users/auth/login/`
    - Method: `POST`
    - Body (JSON):
-    ```json
+```json
     {
     "email": "umit@gmail.com",
     "password": "umit123456"
     }
-    ```
+```
 
 2. **Blog Oluşturma:**
    - URL: `https://umit8114.pythonanywhere.com/blog/posts/`
