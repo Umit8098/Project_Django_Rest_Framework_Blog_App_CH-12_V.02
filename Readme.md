@@ -23,6 +23,7 @@
 - [Table of Contents](#table-of-contents)
 - [API Testing](#api-testing)
 - [Overview](#overview)
+  - [Blog Uygulaması Testi:](#blog-uygulaması-testi)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
 - [About This Project](#about-this-project)
@@ -42,16 +43,17 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 
 ## Overview
-- User/Authentication app testing on Postman
+- User Authentication Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif) -->
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-1.gif" alt="User/Authentication app testing on Postman" width="400"/>
+*Yukarıdaki görselde kullanıcı doğrulama API'si için Postman test sürecini görebilirsiniz.*
 
 ---
 
-- Blog app testing on Postman
+### Blog Uygulaması Testi:
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif) -->
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-2.gif" alt="Blog app testing on Postman" width="400"/>
-
+*Blog API'si için CRUD işlemlerini Postman üzerinde test ederken çekilen görsel.*
 
 ## Built With
 
