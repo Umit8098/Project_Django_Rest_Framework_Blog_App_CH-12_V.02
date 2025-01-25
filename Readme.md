@@ -28,8 +28,8 @@
   - [Comment Endpoints:](#comment-endpoints)
 - [API Testing](#api-testing)
 - [Overview](#overview)
-  - [User Authentication Test](#user-authentication-test)
-  - [Blog Uygulaması Testi:](#blog-uygulaması-testi)
+  - [Kullanıcı Doğrulama Testi](#kullanıcı-doğrulama-testi)
+  - [Blog CRUD Testi](#blog-crud-testi)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
   - [Örnek Kullanım](#örnek-kullanım)
@@ -61,6 +61,8 @@ Bu API aşağıdaki endpoint'leri sağlar:
 
 ## API Testing
 
+Postman Collection, API'nizin her bir endpoint'ini test etmek için gerekli istekleri içerir. API'nin işlevselliğini hızlı bir şekilde anlamak için kullanabilirsiniz.
+
 API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
 
 1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
@@ -79,25 +81,27 @@ Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına v
 - Yorum yapma ve beğeni ekleme
 - Hiyerarşik veri modeli için drf-nested-routers kullanımı
 
-### User Authentication Test
+### Kullanıcı Doğrulama Testi
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif) -->
-<img src="project_screenshot/Blog_App_RF_CH-12_V.02-1.gif" alt="User/Authentication app testing on Postman" width="400"/>
-*Yukarıdaki görselde kullanıcı doğrulama API'si için Postman test sürecini görebilirsiniz.*
+<img src="project_screenshot/Blog_App_RF_CH-12_V.02-1.gif" alt="User/Authentication Test" width="400"/>
+➡ *Kullanıcı doğrulama işlemleri için Postman üzerinde yapılan test sürecini görebilirsiniz.*
 
 ---
 
-### Blog Uygulaması Testi:
+### Blog CRUD Testi
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif) -->
-<img src="project_screenshot/Blog_App_RF_CH-12_V.02-2.gif" alt="Blog app testing on Postman" width="400"/>
-*Blog API'si için CRUD işlemlerini Postman üzerinde test ederken çekilen görsel.*
+<img src="project_screenshot/Blog_App_RF_CH-12_V.02-2.gif" alt="Blog CRUD Test" width="400"/>
+➡ *Blog API'si üzerindeki CRUD işlemlerini Postman ile test etme.*
 
 ## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- Djago Rest Framework
-- dj-rest-auth
-- drf-nested-routers
+Bu proje aşağıdaki araçlar ve kütüphanelerle inşa edilmiştir:
+- [Django Rest Framework](https://www.django-rest-framework.org/) - Güçlü bir REST API framework'ü.
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - Kullanıcı yetkilendirme modülü.
+- [drf-nested-routers](https://github.com/alanjds/drf-nested-routers) - Hiyerarşik routing için.
+
 
 ## How To Use
 
@@ -185,9 +189,9 @@ SECRET_KEY =123456789abcdefg...
 - Kullanıcılar kayıt olup, blog yazabilir, yazılan bloglara yorum yapabilir, beğeni yapabilirler.
 
 ## Acknowledgements
-- [Django Rest Framework](https://www.django-rest-framework.org/)
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - dj-rest-auth
-- [Routers](https://github.com/alanjds/drf-nested-routers) - drf-nested-routers
+- [Django Rest Framework](https://www.django-rest-framework.org/) - REST API oluşturmak için kullanılan framework.
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - Kullanıcı doğrulama için kullanıldı.
+- [Routers](https://github.com/alanjds/drf-nested-routers) - Hiyerarşik veri modeli için kullanıldı.
 
 ## Contact
 
