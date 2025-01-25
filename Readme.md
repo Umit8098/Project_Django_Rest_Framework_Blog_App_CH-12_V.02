@@ -159,10 +159,11 @@ SECRET_KEY =123456789abcdefg...
    - URL: `https://umit8114.pythonanywhere.com/blog/posts/`
    - Method: `POST`
    - Headers:
-```
+  
+```html
   Authorization: Token <login olunduğunda dönen token key>
 ```
-    Body (JSON):
+   - Body (JSON):
 
 ```json
   {
