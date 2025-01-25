@@ -167,8 +167,8 @@ SECRET_KEY =123456789abcdefg...
 ```text
   Authorization: Token <login olunduğunda dönen token key>
 ```
- 
-  - - Body (JSON):
+- 
+ - Body (JSON):
 
 ```json
   {
