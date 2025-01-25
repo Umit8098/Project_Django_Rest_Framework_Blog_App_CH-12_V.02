@@ -44,6 +44,13 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 
 ## Overview
+
+Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanır. Bu uygulama şunları sağlar:
+- Kullanıcı doğrulama ve yetkilendirme
+- Blog CRUD işlemleri
+- Yorum yapma ve beğeni ekleme
+- Hiyerarşik veri modeli için drf-nested-routers kullanımı
+
 ### User Authentication Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif) -->
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-1.gif" alt="User/Authentication app testing on Postman" width="400"/>
