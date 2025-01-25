@@ -21,6 +21,10 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [API Endpoints](#api-endpoints)
+  - [User/Authentication Endpoints:](#userauthentication-endpoints)
+  - [Blog Endpoints:](#blog-endpoints)
+  - [Comment Endpoints:](#comment-endpoints)
 - [API Testing](#api-testing)
 - [Overview](#overview)
   - [User Authentication Test](#user-authentication-test)
@@ -30,6 +34,28 @@
 - [About This Project](#about-this-project)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+
+
+## API Endpoints
+
+Bu API aşağıdaki endpoint'leri sağlar:
+
+### User/Authentication Endpoints:
+- `POST /api/auth/register/` - Yeni kullanıcı kaydı
+- `POST /api/auth/login/` - Kullanıcı girişi
+- `POST /api/auth/logout/` - Kullanıcı çıkışı
+
+### Blog Endpoints:
+- `GET /api/blogs/` - Tüm blogları listele
+- `POST /api/blogs/` - Yeni bir blog oluştur
+- `GET /api/blogs/<id>/` - Belirli bir blog detayları
+- `PUT /api/blogs/<id>/` - Blog güncelleme
+- `DELETE /api/blogs/<id>/` - Blog silme
+
+### Comment Endpoints:
+- `GET /api/comments/` - Blog yorumlarını listele
+- `POST /api/comments/` - Yeni bir yorum ekle
+
 
 ## API Testing
 
