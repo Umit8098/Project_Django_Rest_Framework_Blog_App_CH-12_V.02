@@ -2,6 +2,7 @@
 
 <h1 align="center">Project_Django_Rest_Framework_Blog_App</h1>
 
+<p align="center">🚀 Kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanıyan bir API 🚀</p>
 
 <!-- <div align="center">
   <h3>
@@ -31,6 +32,7 @@
   - [Blog Uygulaması Testi:](#blog-uygulaması-testi)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
+  - [Örnek Kullanım](#örnek-kullanım)
 - [About This Project](#about-this-project)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -41,20 +43,20 @@
 Bu API aşağıdaki endpoint'leri sağlar:
 
 ### User/Authentication Endpoints:
-- `POST /api/auth/register/` - Yeni kullanıcı kaydı
-- `POST /api/auth/login/` - Kullanıcı girişi
-- `POST /api/auth/logout/` - Kullanıcı çıkışı
+- `POST https://umit8114.pythonanywhere.com/users/register/` - Yeni kullanıcı kaydı
+- `POST https://umit8114.pythonanywhere.com/users/auth/login/` - Kullanıcı girişi
+- `POST https://umit8114.pythonanywhere.com/users/auth/logout/` - Kullanıcı çıkışı
 
 ### Blog Endpoints:
-- `GET /api/blogs/` - Tüm blogları listele
-- `POST /api/blogs/` - Yeni bir blog oluştur
-- `GET /api/blogs/<id>/` - Belirli bir blog detayları
-- `PUT /api/blogs/<id>/` - Blog güncelleme
-- `DELETE /api/blogs/<id>/` - Blog silme
+- `GET https://umit8114.pythonanywhere.com/blog/posts/` - Tüm blogları listele
+- `POST https://umit8114.pythonanywhere.com/blog/posts/` - Yeni bir blog oluştur
+- `GET https://umit8114.pythonanywhere.com/blog/posts/14/` - Belirli bir blog detayları
+- `PUT https://umit8114.pythonanywhere.com/blog/posts/14/` - Blog güncelleme
+- `DELETE https://umit8114.pythonanywhere.com/blog/posts/16/` - Blog silme
 
 ### Comment Endpoints:
-- `GET /api/comments/` - Blog yorumlarını listele
-- `POST /api/comments/` - Yeni bir yorum ekle
+- `GET https://umit8114.pythonanywhere.com/blog/comments/` - Blog yorumlarını listele
+- `POST https://umit8114.pythonanywhere.com/blog/comments/` - Yeni bir yorum ekle
 
 
 ## API Testing
@@ -139,6 +141,37 @@ SECRET_KEY =123456789abcdefg...
 # Run the app
     $ python manage.py runserver
 ```
+
+### Örnek Kullanım
+
+1. **Login Request:**
+   - URL: `https://umit8114.pythonanywhere.com/users/auth/login/`
+   - Method: `POST`
+   - Body (JSON):
+     ```json
+    {
+    "email": "umit@gmail.com",
+    "password": "umit123456"
+    }
+     ```
+
+2. **Blog Oluşturma:**
+   - URL: `https://umit8114.pythonanywhere.com/blog/posts/`
+   - Method: `POST`
+   - Headers:
+     ```
+     Authorization: Token <login olunduğunda dönen token key>
+     ```
+   - Body (JSON):
+     ```json
+    {
+    "title": "fifth Post",
+    "content": "Second Content",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sport_balls.svg/400px-Sport_balls.svg.png",
+    "is_published": true 
+    }
+     ```
+
 
 ## About This Project
 - This is an API service for a blog application built with Django Rest Framework.
