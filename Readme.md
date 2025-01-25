@@ -160,8 +160,8 @@ SECRET_KEY =123456789abcdefg...
    - Method: `POST`
    - Headers:
   
-```html
-  Authorization: Token <login olunduğunda dönen token key>
+```json
+Authorization: Token <login olunduğunda dönen token key>
 ```
    - Body (JSON):
 
