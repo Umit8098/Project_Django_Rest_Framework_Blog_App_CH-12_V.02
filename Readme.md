@@ -3,7 +3,7 @@
 <h1 align="center">Project_Django_Rest_Framework_Blog_App</h1>
 
 
-<div align="center">
+<!-- <div align="center">
   <h3>
     <a href="https://umit8114.pythonanywhere.com/">
       Demo
@@ -14,13 +14,14 @@
     </a>
  
   </h3>
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [API Testing](#api-testing)
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
@@ -28,15 +29,28 @@
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
-<!-- OVERVIEW -->
+## API Testing
+
+API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+
+1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
+2. Bu [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-00b58f75-ce21-4f00-9e94-24eaec4d32b0?action=share&creator=17531143) indirin ve içe aktarın.
+3. API'leri Postman üzerinden test etmeye başlayın.
+
+**Postman Collection Linki:**  
+[Blog App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-00b58f75-ce21-4f00-9e94-24eaec4d32b0?action=share&creator=17531143)
+
 
 ## Overview
 - User/Authentication app testing on Postman
-![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif)
+<!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif) -->
+<img src="project_screenshot/Blog_App_RF_CH-12_V.02-1.gif" alt="User/Authentication app testing on Postman" width="400"/>
 
 ---
+
 - Blog app testing on Postman
-![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif)
+<!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif) -->
+<img src="project_screenshot/Blog_App_RF_CH-12_V.02-2.gif" alt="Blog app testing on Postman" width="400"/>
 
 
 ## Built With
@@ -100,7 +114,8 @@ SECRET_KEY =123456789abcdefg...
 - Kullanıcılar kayıt olup, blog yazabilir, yazılan bloglara yorum yapabilir, beğeni yapabilirler.
 
 ## Acknowledgements
-- [Authentication](https://dj-rest-auth.readthedocs.io/en/latest/) - dj-rest-auth
+- [Django Rest Framework](https://www.django-rest-framework.org/)
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - dj-rest-auth
 - [Routers](https://github.com/alanjds/drf-nested-routers) - drf-nested-routers
 
 ## Contact
