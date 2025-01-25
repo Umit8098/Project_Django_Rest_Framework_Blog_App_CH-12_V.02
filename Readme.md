@@ -48,7 +48,7 @@ Bu API aşağıdaki endpoint'leri sağlar:
 |--------|--------------------------------------------------------------|---------------------|
 | POST   | `https://umit8114.pythonanywhere.com/users/register/`        | Yeni kullanıcı kaydı|
 | POST   | `https://umit8114.pythonanywhere.com/users/auth/login/`      | Kullanıcı girişi    |
-| POST   | `POST https://umit8114.pythonanywhere.com/users/auth/logout/`| Kullanıcı çıkışı    |
+| POST   | `https://umit8114.pythonanywhere.com/users/auth/logout/`     | Kullanıcı çıkışı    |
 
 
 ### Blog Endpoints:
