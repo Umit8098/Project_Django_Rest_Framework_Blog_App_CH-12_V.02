@@ -149,28 +149,28 @@ SECRET_KEY =123456789abcdefg...
    - Method: `POST`
    - Body (JSON):
 ```json
-    {
-    "email": "umit@gmail.com",
-    "password": "umit123456"
-    }
+  {
+  "email": "umit@gmail.com",
+  "password": "umit123456"
+  }
 ```
 
 2. **Blog Oluşturma:**
    - URL: `https://umit8114.pythonanywhere.com/blog/posts/`
    - Method: `POST`
    - Headers:
-     ```
-     Authorization: Token <login olunduğunda dönen token key>
-     ```
+```
+  Authorization: Token <login olunduğunda dönen token key>
+```
    - Body (JSON):
-     ```json
-    {
-    "title": "fifth Post",
-    "content": "Second Content",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sport_balls.svg/400px-Sport_balls.svg.png",
-    "is_published": true 
-    }
-     ```
+```json
+  {
+  "title": "fifth Post",
+  "content": "Second Content",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sport_balls.svg/400px-Sport_balls.svg.png",
+  "is_published": true 
+  }
+```
 
 
 ## About This Project
