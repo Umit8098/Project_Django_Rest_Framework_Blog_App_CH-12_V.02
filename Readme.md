@@ -161,7 +161,7 @@ SECRET_KEY =123456789abcdefg...
    - Headers:
   
 ```text
-Authorization: Token <login olunduğunda dönen token key>
+  Authorization: Token <login olunduğunda dönen token key>
 ```
    - Body (JSON):
 
