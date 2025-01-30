@@ -171,6 +171,8 @@ SECRET_KEY =123456789abcdefg...
     $ python manage.py runserver
 ```
 
+- After cloning the app and installing the dependencies, you can follow these steps:
+
 ### Example Usage
 
 1. **Login Request:**
