@@ -30,8 +30,8 @@
   - [Comment Endpoints:](#comment-endpoints)
 - [API Testing](#api-testing)
 - [Overview](#overview)
-  - [Kullanıcı Doğrulama Testi](#kullanıcı-doğrulama-testi)
-  - [Blog CRUD Testi](#blog-crud-testi)
+  - [User Authentication Test](#user-authentication-test)
+  - [Blog CRUD Test](#blog-crud-test)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
   - [Example Usage](#example-usage)
@@ -45,7 +45,7 @@ This API provides the following endpoints:
 
 ### User/Authentication Endpoints:
 
-| Method | URL                                                          | Açıklama             |
+| Method | URL                                                          | Explanation             |
 |--------|--------------------------------------------------------------|----------------------|
 | POST   | `https://umit8114.pythonanywhere.com/users/register/`        | New user registration|
 | POST   | `https://umit8114.pythonanywhere.com/users/auth/login/`      | User login           |
@@ -54,7 +54,7 @@ This API provides the following endpoints:
 
 ### Blog Endpoints:
 
-| Method | URL                                                  | Açıklama              |
+| Method | URL                                                  | Explanation              |
 |--------|------------------------------------------------------|-----------------------|
 | GET    | `https://umit8114.pythonanywhere.com/blog/posts/`    | List all posts        |
 | POST   | `https://umit8114.pythonanywhere.com/blog/posts/`    | Create a new post     |
@@ -64,7 +64,7 @@ This API provides the following endpoints:
 
 
 ### Comment Endpoints:
-| Method | URL                                                  | Açıklama             |
+| Method | URL                                                  | Explanation             |
 |--------|------------------------------------------------------|----------------------|
 | GET    | `https://umit8114.pythonanywhere.com/blog/comments/` | List post comments   |
 | POST   | `https://umit8114.pythonanywhere.com/blog/comments/` | Add a new comment    |
@@ -100,14 +100,14 @@ Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına v
 - Yorum yapma ve beğeni ekleme
 - Hiyerarşik veri modeli için drf-nested-routers kullanımı
 
-### Kullanıcı Doğrulama Testi
+### User Authentication Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif) -->
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-1.gif" alt="User/Authentication Test" width="400"/>
 ➡ *Kullanıcı doğrulama işlemleri için Postman üzerinde yapılan test sürecini görebilirsiniz.*
 
 ---
 
-### Blog CRUD Testi
+### Blog CRUD Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif) -->
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-2.gif" alt="Blog CRUD Test" width="400"/>
 ➡ *Blog API'si üzerindeki CRUD işlemlerini Postman ile test etme.*
@@ -200,7 +200,6 @@ SECRET_KEY =123456789abcdefg...
   "is_published": true 
   }
 ```
-
 
 ## About This Project
 
