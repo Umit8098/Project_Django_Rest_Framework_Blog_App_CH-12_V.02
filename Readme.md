@@ -212,7 +212,7 @@ SECRET_KEY =123456789abcdefg...
 ---
 
 - Bu, Django Rest Framework ile oluşturulmuş bir blog uygulamasının API servisidir.
-- Kullanıcılar kayıt olup, blog yazabilir, yazılan bloglara yorum yapabilir, beğeni yapabilirler.
+- Kullanıcılar kayıt olup, post yazabilir, yazılan postlara yorum yapabilir, beğeni yapabilirler.
 
 
 ## Key Features
