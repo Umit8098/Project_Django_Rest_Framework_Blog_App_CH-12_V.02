@@ -2,7 +2,9 @@
 
 <h1 align="center">Project_Django_Rest_Framework_Blog_App</h1>
 
-<p align="center">🚀 Kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanıyan bir API 🚀</p>
+<p align="center">🚀 An API that allows users to create blogs, comment, and interact with other users 🚀</p>
+
+<!-- <p align="center">🚀 Kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanıyan bir API 🚀</p> -->
 
 <!-- <div align="center">
   <h3>
@@ -32,58 +34,65 @@
   - [Blog CRUD Testi](#blog-crud-testi)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
-  - [Örnek Kullanım](#örnek-kullanım)
+  - [Example Usage](#example-usage)
 - [About This Project](#about-this-project)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 
 ## API Endpoints
 
-Bu API aşağıdaki endpoint'leri sağlar:
+This API provides the following endpoints:
 
 ### User/Authentication Endpoints:
 
-| Method | URL                                                          | Açıklama            |
-|--------|--------------------------------------------------------------|---------------------|
-| POST   | `https://umit8114.pythonanywhere.com/users/register/`        | Yeni kullanıcı kaydı|
-| POST   | `https://umit8114.pythonanywhere.com/users/auth/login/`      | Kullanıcı girişi    |
-| POST   | `https://umit8114.pythonanywhere.com/users/auth/logout/`     | Kullanıcı çıkışı    |
+| Method | URL                                                          | Açıklama             |
+|--------|--------------------------------------------------------------|----------------------|
+| POST   | `https://umit8114.pythonanywhere.com/users/register/`        | New user registration|
+| POST   | `https://umit8114.pythonanywhere.com/users/auth/login/`      | User login           |
+| POST   | `https://umit8114.pythonanywhere.com/users/auth/logout/`     | Kullanıcı logout     |
 
 
 ### Blog Endpoints:
 
-| Method | URL                                                  | Açıklama                   |
-|--------|------------------------------------------------------|----------------------------|
-| GET    | `https://umit8114.pythonanywhere.com/blog/posts/`    | Tüm blogları listele       |
-| POST   | `https://umit8114.pythonanywhere.com/blog/posts/`    | Yeni bir blog oluştur      |
-| GET    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Belirli bir blog detayları |
-| PUT    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Blog güncelleme            |
-| DELETE | `https://umit8114.pythonanywhere.com/blog/posts/16/` | Blog silme                 |
+| Method | URL                                                  | Açıklama              |
+|--------|------------------------------------------------------|-----------------------|
+| GET    | `https://umit8114.pythonanywhere.com/blog/posts/`    | List all posts        |
+| POST   | `https://umit8114.pythonanywhere.com/blog/posts/`    | Create a new post     |
+| GET    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Specific post details |
+| PUT    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Post update           |
+| DELETE | `https://umit8114.pythonanywhere.com/blog/posts/16/` | Post delete           |
 
 
 ### Comment Endpoints:
-| Method | URL                                                  | Açıklama                   |
-|--------|------------------------------------------------------|----------------------------|
-| GET    | `https://umit8114.pythonanywhere.com/blog/comments/` | Blog yorumlarını listele   |
-| POST   | `https://umit8114.pythonanywhere.com/blog/comments/` | Yeni bir yorum ekle        |
+| Method | URL                                                  | Açıklama             |
+|--------|------------------------------------------------------|----------------------|
+| GET    | `https://umit8114.pythonanywhere.com/blog/comments/` | List post comments   |
+| POST   | `https://umit8114.pythonanywhere.com/blog/comments/` | Add a new comment    |
 
 
 ## API Testing
 
-Postman Collection, API'nizin her bir endpoint'ini test etmek için gerekli istekleri içerir. API'nin işlevselliğini hızlı bir şekilde anlamak için kullanabilirsiniz.
+Postman Collection contains the necessary requests to test each endpoint of your API. You can use it to quickly understand the functionality of the API.
 
-API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+To test APIs via Postman, you can follow the steps below:
 
-1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
-2. Bu [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-00b58f75-ce21-4f00-9e94-24eaec4d32b0?action=share&creator=17531143) indirin ve içe aktarın.
-3. API'leri Postman üzerinden test etmeye başlayın.
+1. Install Postman (if not installed): [Postman İndir](https://www.postman.com/downloads/).
+2. This [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-00b58f75-ce21-4f00-9e94-24eaec4d32b0?action=share&creator=17531143) download and import.
+3. Start testing APIs via Postman.
 
-**Postman Collection Linki:**  
+**Postman Collection Link:**  
 [Blog App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-00b58f75-ce21-4f00-9e94-24eaec4d32b0?action=share&creator=17531143)
 
 
 ## Overview
+
+The Blog API application allows users to create blogs, comment, and interact with other users. This application provides:
+- User authentication and authorization
+- Blog CRUD operations
+- Commenting and adding likes
+- Using drf-nested-routers for hierarchical data model
+
+---
 
 Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanır. Bu uygulama şunları sağlar:
 - Kullanıcı doğrulama ve yetkilendirme
@@ -103,14 +112,17 @@ Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına v
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-2.gif" alt="Blog CRUD Test" width="400"/>
 ➡ *Blog API'si üzerindeki CRUD işlemlerini Postman ile test etme.*
 
+---
+
 ## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-Bu proje aşağıdaki araçlar ve kütüphanelerle inşa edilmiştir:
-- [Django Rest Framework](https://www.django-rest-framework.org/) - Güçlü bir REST API framework'ü.
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - Kullanıcı yetkilendirme modülü.
-- [drf-nested-routers](https://github.com/alanjds/drf-nested-routers) - Hiyerarşik routing için.
+This project is built with the following tools and libraries:
+
+- [Django Rest Framework](https://www.django-rest-framework.org/) - A powerful framework for developing REST APIs.
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - User authentication and authorization.
+- [drf-nested-routers](https://github.com/alanjds/drf-nested-routers) - Hierarchical routing.
 
 
 ## How To Use
@@ -156,7 +168,7 @@ SECRET_KEY =123456789abcdefg...
     $ python manage.py runserver
 ```
 
-### Örnek Kullanım
+### Example Usage
 
 1. **Login Request:**
    - URL: `https://umit8114.pythonanywhere.com/users/auth/login/`
@@ -169,7 +181,7 @@ SECRET_KEY =123456789abcdefg...
   }
 ```
 
-2. **Blog Oluşturma:**
+2. **Post Create:**
    - URL: `https://umit8114.pythonanywhere.com/blog/posts/`
    - Method: `POST`
    - Headers:
@@ -191,18 +203,15 @@ SECRET_KEY =123456789abcdefg...
 
 
 ## About This Project
+
 - This is an API service for a blog application built with Django Rest Framework.
 - Users can register, write blogs, comment on blogs and like them.
 
-<hr>
+---
 
 - Bu, Django Rest Framework ile oluşturulmuş bir blog uygulamasının API servisidir.
 - Kullanıcılar kayıt olup, blog yazabilir, yazılan bloglara yorum yapabilir, beğeni yapabilirler.
 
-## Acknowledgements
-- [Django Rest Framework](https://www.django-rest-framework.org/) - REST API oluşturmak için kullanılan framework.
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - Kullanıcı doğrulama için kullanıldı.
-- [Routers](https://github.com/alanjds/drf-nested-routers) - Hiyerarşik veri modeli için kullanıldı.
 
 ## Contact
 
