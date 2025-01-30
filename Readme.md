@@ -31,11 +31,12 @@
 - [API Testing](#api-testing)
 - [Overview](#overview)
   - [User Authentication Test](#user-authentication-test)
-  - [Blog CRUD Test](#blog-crud-test)
+  - [Blog App CRUD Test](#blog-app-crud-test)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
   - [Example Usage](#example-usage)
 - [About This Project](#about-this-project)
+- [Key Features](#key-features)
 - [Contact](#contact)
 
 
@@ -103,14 +104,16 @@ Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına v
 ### User Authentication Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif) -->
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-1.gif" alt="User/Authentication Test" width="400"/>
-➡ *Kullanıcı doğrulama işlemleri için Postman üzerinde yapılan test sürecini görebilirsiniz.*
+
+➡ Testing user authentication processes with Postman.
 
 ---
 
-### Blog CRUD Test
+### Blog App CRUD Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif) -->
 <img src="project_screenshot/Blog_App_RF_CH-12_V.02-2.gif" alt="Blog CRUD Test" width="400"/>
-➡ *Blog API'si üzerindeki CRUD işlemlerini Postman ile test etme.*
+
+➡ Testing CRUD operations on the Blog App API with Postman.
 
 ---
 
@@ -210,6 +213,21 @@ SECRET_KEY =123456789abcdefg...
 
 - Bu, Django Rest Framework ile oluşturulmuş bir blog uygulamasının API servisidir.
 - Kullanıcılar kayıt olup, blog yazabilir, yazılan bloglara yorum yapabilir, beğeni yapabilirler.
+
+
+## Key Features
+
+- **Blog Management:** Users can write, update and delete blogs.
+- **Comment and Like:** Can comment and add likes to blogs.
+- **User Authorization:** User registration, login and profile management.
+- **Hierarchical Data Structure:** Advanced data management with drf-nested-routers.
+
+---
+
+- **Blog Yönetimi:** Kullanıcılar blog yazabilir, güncelleyebilir ve silebilir.
+- **Yorum ve Beğeni:** Bloglara yorum yapabilir ve beğeni ekleyebilir.
+- **Kullanıcı Yetkilendirme:** Kullanıcı kayıt, giriş ve profil yönetimi.
+- **Hiyerarşik Veri Yapısı:** drf-nested-routers ile gelişmiş veri yönetimi.
 
 
 ## Contact
