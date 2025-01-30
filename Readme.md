@@ -2,7 +2,7 @@
 
 <h1 align="center">Project_Django_Rest_Framework_Blog_App</h1>
 
-<p align="center">🚀 An API that allows users to create blogs, comment, and interact with other users 🚀</p>
+<p align="center"><strong>🚀 An API that allows users to create blogs, comment, and interact with other users 🚀</strong></p>
 
 <!-- <p align="center">🚀 Kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanıyan bir API 🚀</p> -->
 
@@ -46,16 +46,16 @@ This API provides the following endpoints:
 
 ### User/Authentication Endpoints:
 
-| Method | URL                                                          | Explanation             |
+| Method | URL                                                          | Explanation          |
 |--------|--------------------------------------------------------------|----------------------|
 | POST   | `https://umit8114.pythonanywhere.com/users/register/`        | New user registration|
 | POST   | `https://umit8114.pythonanywhere.com/users/auth/login/`      | User login           |
-| POST   | `https://umit8114.pythonanywhere.com/users/auth/logout/`     | Kullanıcı logout     |
+| POST   | `https://umit8114.pythonanywhere.com/users/auth/logout/`     | User logout          |
 
 
 ### Blog Endpoints:
 
-| Method | URL                                                  | Explanation              |
+| Method | URL                                                  | Explanation           |
 |--------|------------------------------------------------------|-----------------------|
 | GET    | `https://umit8114.pythonanywhere.com/blog/posts/`    | List all posts        |
 | POST   | `https://umit8114.pythonanywhere.com/blog/posts/`    | Create a new post     |
@@ -65,7 +65,7 @@ This API provides the following endpoints:
 
 
 ### Comment Endpoints:
-| Method | URL                                                  | Explanation             |
+| Method | URL                                                  | Explanation          |
 |--------|------------------------------------------------------|----------------------|
 | GET    | `https://umit8114.pythonanywhere.com/blog/comments/` | List post comments   |
 | POST   | `https://umit8114.pythonanywhere.com/blog/comments/` | Add a new comment    |
