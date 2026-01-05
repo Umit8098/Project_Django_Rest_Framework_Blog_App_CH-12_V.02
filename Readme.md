@@ -1,8 +1,17 @@
 <!-- Please update value in the {}  -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Django-REST_Framework-success?logo=django" />
+  <img src="https://img.shields.io/badge/API-Blog-blue" />
+  <img src="https://img.shields.io/badge/Auth-dj--rest--auth-orange" />
+  <img src="https://img.shields.io/badge/Deployment-PythonAnywhere-purple" />
+</p>
 
-<h1 align="center">Project_Django_Rest_Framework_Blog_App</h1>
+<h1 align="center">📝 Blog REST API</h1>
 
-<p align="center"><strong>🚀 An API that allows users to create blogs, comment, and interact with other users 🚀</strong></p>
+<p align="center">
+A production-ready Blog API built with Django REST Framework featuring authentication,
+CRUD operations, comments, likes and nested resources.
+</p>
 
 <!-- <p align="center">🚀 Kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanıyan bir API 🚀</p> -->
 
@@ -21,9 +30,8 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+## Navigation
 
-- [Table of Contents](#table-of-contents)
 - [API Endpoints](#api-endpoints)
   - [User/Authentication Endpoints:](#userauthentication-endpoints)
   - [Blog Endpoints:](#blog-endpoints)
@@ -42,7 +50,9 @@
 
 ## API Endpoints
 
-This API provides the following endpoints:
+All endpoints are RESTful and protected via token-based authentication
+where required.
+
 
 ### User/Authentication Endpoints:
 
@@ -88,18 +98,11 @@ To test APIs via Postman, you can follow the steps below:
 ## Overview
 
 The Blog API application allows users to create blogs, comment, and interact with other users. This application provides:
-- User authentication and authorization
-- Blog CRUD operations
-- Commenting and adding likes
-- Using drf-nested-routers for hierarchical data model
+- Token-based authentication & authorization
+- Blog & Comment CRUD operations
+- Like system
+- Nested resources using drf-nested-routers
 
----
-
-Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanır. Bu uygulama şunları sağlar:
-- Kullanıcı doğrulama ve yetkilendirme
-- Blog CRUD işlemleri
-- Yorum yapma ve beğeni ekleme
-- Hiyerarşik veri modeli için drf-nested-routers kullanımı
 
 ### User Authentication Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif) -->
@@ -107,7 +110,6 @@ Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına v
 
 ➡ Testing user authentication processes with Postman.
 
----
 
 ### Blog App CRUD Test
 <!-- ![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif) -->
@@ -115,7 +117,6 @@ Blog API uygulaması, kullanıcıların blog oluşturmasına, yorum yapmasına v
 
 ➡ Testing CRUD operations on the Blog App API with Postman.
 
----
 
 ## Built With
 
@@ -137,12 +138,6 @@ To clone and run this application, you'll need [Git](https://github.com/Umit8098
 When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
 
 Complete the installation by uncommenting the appropriate package.
-
----
-
-requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
-
-Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
 
 ```bash
 # Clone this repository
@@ -211,11 +206,6 @@ SECRET_KEY =123456789abcdefg...
 - This is an API service for a blog application built with Django Rest Framework.
 - Users can register, write blogs, comment on blogs and like them.
 
----
-
-- Bu, Django Rest Framework ile oluşturulmuş bir blog uygulamasının API servisidir.
-- Kullanıcılar kayıt olup, post yazabilir, yazılan postlara yorum yapabilir, beğeni yapabilirler.
-
 
 ## Key Features
 
@@ -223,13 +213,6 @@ SECRET_KEY =123456789abcdefg...
 - **Comment and Like:** Can comment and add likes to blogs.
 - **User Authorization:** User registration, login and profile management.
 - **Hierarchical Data Structure:** Advanced data management with drf-nested-routers.
-
----
-
-- **Blog Yönetimi:** Kullanıcılar blog yazabilir, güncelleyebilir ve silebilir.
-- **Yorum ve Beğeni:** Bloglara yorum yapabilir ve beğeni ekleyebilir.
-- **Kullanıcı Yetkilendirme:** Kullanıcı kayıt, giriş ve profil yönetimi.
-- **Hiyerarşik Veri Yapısı:** drf-nested-routers ile gelişmiş veri yönetimi.
 
 
 ## Contact
