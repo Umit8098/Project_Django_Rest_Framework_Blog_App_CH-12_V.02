@@ -15,18 +15,18 @@ CRUD operations, comments, likes and nested resources.
 
 <!-- <p align="center">🚀 Kullanıcıların blog oluşturmasına, yorum yapmasına ve diğer kullanıcılarla etkileşim kurmasına olanak tanıyan bir API 🚀</p> -->
 
-<!-- <div align="center">
+<div align="center">
   <h3>
     <a href="https://umit8114.pythonanywhere.com/">
-      Demo
+      🖥️ Live Demo
     </a>
      | 
-    <a href="https://umit8114.pythonanywhere.com/">
-      Project
+    <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Blog_App_CH-12_V.02.git">
+      📂 Project
     </a>
  
   </h3>
-</div> -->
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -56,29 +56,29 @@ where required.
 
 ### User/Authentication Endpoints:
 
-| Method | URL                                                          | Explanation          |
-|--------|--------------------------------------------------------------|----------------------|
-| POST   | `https://umit8114.pythonanywhere.com/users/register/`        | New user registration|
-| POST   | `https://umit8114.pythonanywhere.com/users/auth/login/`      | User login           |
-| POST   | `https://umit8114.pythonanywhere.com/users/auth/logout/`     | User logout          |
+| Method | URL                       | Explanation          |
+|--------|---------------------------|----------------------|
+| POST   | `/users/register/`        | New user registration|
+| POST   | `/users/auth/login/`      | User login           |
+| POST   | `/users/auth/logout/`     | User logout          |
 
 
 ### Blog Endpoints:
 
-| Method | URL                                                  | Explanation           |
-|--------|------------------------------------------------------|-----------------------|
-| GET    | `https://umit8114.pythonanywhere.com/blog/posts/`    | List all posts        |
-| POST   | `https://umit8114.pythonanywhere.com/blog/posts/`    | Create a new post     |
-| GET    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Specific post details |
-| PUT    | `https://umit8114.pythonanywhere.com/blog/posts/14/` | Post update           |
-| DELETE | `https://umit8114.pythonanywhere.com/blog/posts/16/` | Post delete           |
+| Method | URL               | Explanation           |
+|--------|-------------------|-----------------------|
+| GET    | `/blog/posts/`    | List all posts        |
+| POST   | `/blog/posts/`    | Create a new post     |
+| GET    | `/blog/posts/14/` | Specific post details |
+| PUT    | `/blog/posts/14/` | Post update           |
+| DELETE | `/blog/posts/16/` | Post delete           |
 
 
 ### Comment Endpoints:
-| Method | URL                                                  | Explanation          |
-|--------|------------------------------------------------------|----------------------|
-| GET    | `https://umit8114.pythonanywhere.com/blog/comments/` | List post comments   |
-| POST   | `https://umit8114.pythonanywhere.com/blog/comments/` | Add a new comment    |
+| Method | URL               | Explanation          |
+|--------|-------------------|----------------------|
+| GET    | `/blog/comments/` | List post comments   |
+| POST   | `/blog/comments/` | Add a new comment    |
 
 
 ## API Testing
