@@ -22,7 +22,7 @@ CRUD operations, comments, likes and nested resources.
     </a>
      | 
     <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Blog_App_CH-12_V.02.git">
-      📂 Project
+      📂 Repository
     </a>
  
   </h3>
